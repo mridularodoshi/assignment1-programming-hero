@@ -361,3 +361,23 @@ h5 {
      background: rgb(255, 255, 255);
 
 }
+.foot{
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+width: 1440px;
+height: 100px;
+paddding: 32px 150px;
+display: flex;
+justify-content: space-between;
+
+}
+.f-des{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
