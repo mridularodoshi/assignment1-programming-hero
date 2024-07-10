@@ -159,7 +159,8 @@
     padding: 12px 20px;
 }
 
-.inspiration .inspo-title {
+.inspo-title,
+.target-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
@@ -191,5 +192,97 @@
     margin-right: 152px;
     margin-left: 148px;
     padding: 32px;
+    margin-bottom: 88px;
 
+}
+
+.target {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.target-intro {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-left: 247px;
+    margin-right: 247px;
+    margin-bottom: 48px;
+    margin-top: 24px;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.card1 {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.icon {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 32px;
+
+}
+
+h5 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.c-des {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0 24px
+}
+
+.learn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.card2 {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+
+.card3 {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
 }
